@@ -719,7 +719,7 @@ const finishQuiz = () => {
   answerCDiv.remove()
   answerDDiv.remove()
 
-  questionUpdate.innerText = ("You're score:" + grade + "/15")
+  questionUpdate.innerText = ("Your score:" + grade + "/15")
   question.appendChild(questionUpdate)
 
 }
