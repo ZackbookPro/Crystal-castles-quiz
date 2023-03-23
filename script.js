@@ -173,7 +173,7 @@ let answerDText = document.createElement('p')
 
 
 const questionOne = () => {
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[0].question)
 
   answerAText.innerText = (quizData[0].a)
@@ -198,7 +198,7 @@ const questionOne = () => {
 
 const questionTwo = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[1].question)
 
   answerAText.innerText = (quizData[1].a)
@@ -220,7 +220,7 @@ const questionTwo = () => {
 
 const questionThree = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
 
   questionUpdate.innerText = (quizData[2].question)
 
@@ -242,7 +242,7 @@ const questionThree = () => {
 
 const questionFour = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[3].question)
 
   answerAText.innerText = (quizData[3].a)
@@ -263,7 +263,7 @@ const questionFour = () => {
 
 const questionFive = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[4].question)
 
   answerAText.innerText = (quizData[4].a)
@@ -284,7 +284,7 @@ const questionFive = () => {
 
 const questionSix = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[5].question)
 
   answerAText.innerText = (quizData[5].a)
@@ -305,7 +305,7 @@ const questionSix = () => {
 
 const questionSeven = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[6].question)
 
   answerAText.innerText = (quizData[6].a)
@@ -326,7 +326,7 @@ const questionSeven = () => {
 
 const questionEight = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[7].question)
 
   answerAText.innerText = (quizData[7].a)
@@ -347,7 +347,7 @@ const questionEight = () => {
 
 const questionNine = () => {
   questionNum++
-  questionStatus.innerText = (questionNum + '/10')
+  questionStatus.innerText = (questionNum + '/15')
   questionUpdate.innerText = (quizData[8].question)
 
   answerAText.innerText = (quizData[8].a)
